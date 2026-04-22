@@ -1,0 +1,15 @@
+{
+  "name": "part2",
+  "version": "1.0.0",
+  "description": "Stock ticker web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongodb": "^4.0.0"
+  }
+}
