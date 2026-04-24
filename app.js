@@ -156,6 +156,7 @@ http.createServer(function (req, res) {
                     }
                 }
 
+                res.write(`<br><a href="/"><button>Back to Search</button></a>`);
                 res.write("</body></html>");
 
                 res.end();
